@@ -1,0 +1,31 @@
+export interface Draf7SchemaModel {
+    '$schema'?: string;
+    definitions?: any;
+    '$id': string;
+    type: string | string[];
+    enum?: any[];
+    const?: any;
+    title?: string;
+    description?: string;
+    'default'?: any;
+    examples?: any[];
+    readOnly?: boolean;
+    writeOnly?: boolean;
+    minimum?: number;
+    exclusiveMinimum?: number;
+    maximum?: number;
+    exclusiveMaximum?: number;
+    multipleOf?: number;
+    maxLength?: number;
+    minLength?: number;
+    pattern?: string;
+    items?: any | any[];
+    maxItems?: number;
+    minItems?: number;
+    uniqueItems?: boolean;
+    contains?: any;
+    maxProperties?: number;
+    minProperties?: number;
+    properties?: any;
+    required?: string[];
+}
