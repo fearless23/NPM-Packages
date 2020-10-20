@@ -4,13 +4,6 @@
   "description": "JSON schema generator writen in TypeScript supporting from JSON Schema draft-07.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fearless23/jsontoschema.git"
-  },
   "keywords": [
     "JSON",
     "schema",
@@ -19,12 +12,9 @@
     "draft-07",
     "typescript"
   ],
-  "author": "Jaspreet Singh",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fearless23/jsontoschema/issues"
+  "scripts": {
+    "build": "tsc"
   },
-  "homepage": "https://github.com/fearless23/jsontoschema#readme",
   "devDependencies": {
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
@@ -33,7 +23,16 @@
     "@types/lodash": "^4.14.162",
     "lodash": "^4.17.20"
   },
-  "directories": {
-    "test": "test"
-  }
+  "author": "Jaspreet Singh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fearless23/NPM-Packages.git",
+    "directory": "packages/jsontoschema"
+  },
+  "bugs": {
+    "url": "hhttps://github.com/fearless23/NPM-Packages/issues"
+  },
+  "homepage": "https://github.com/fearless23/NPM-Packages#readme",
+  
 }

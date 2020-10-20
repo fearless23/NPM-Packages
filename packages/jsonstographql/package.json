@@ -1,0 +1,49 @@
+{
+  "name": "@jaspreet23/jsonstographql",
+  "version": "0.0.1",
+  "description": "Converts JSON schema to GraphQL types",
+  "keywords": [
+    "json-schema",
+    "graphql"
+  ],
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "trash build"
+  },
+  "engines": {
+    "node": ">=10.9"
+  },
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "camelcase": "^5.0.0",
+    "graphql": "^15.0.0",
+    "lodash": "^4.17.20",
+    "pluralize": "^7.0.0",
+    "ramda": "^0.25.0",
+    "uppercamelcase": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/camelcase": "^4.1.0",
+    "@types/fs-extra": "^5.0.4",
+    "@types/json-schema": "^7.0.1",
+    "@types/lodash": "^4.14.116",
+    "@types/pluralize": "^0.0.29",
+    "@types/ramda": "^0.25.38",
+    "@types/uppercamelcase": "^3.0.0",
+    "fs-extra": "^7.0.0",
+    "typescript": "^4.0.0"
+  },
+  "author": "Jaspreet Singh",
+  "license": "MIT",
+  "homepage": "https://github.com/fearless23/NPM-Packages#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fearless23/NPM-Packages.git",
+    "directory": "packages/jsontoschema"
+  },
+  "bugs": {
+    "url": "hhttps://github.com/fearless23/NPM-Packages/issues"
+  }
+}
