@@ -1,5 +1,5 @@
 {
-  "name": "json2schema",
+  "name": "@jaspreet23/jsontoschema",
   "version": "0.0.1",
   "description": "JSON schema generator writen in TypeScript supporting from JSON Schema draft-07.",
   "main": "dist/index.js",
